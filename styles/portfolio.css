@@ -28,8 +28,6 @@ body {
   text-align: center;
   font-family: Open Sans;
   font-size: 18px;
- 
-  
 }
 /* nav related styles*/
 nav {
@@ -88,10 +86,25 @@ nav a {
   width: 500px;
 }
 /* main section styles */
+main {
+  max-width: 1140px;
+  margin: 0px auto;
+}
 
 /* about section styles */
 .about {
   padding: 130px;
   background-color: #fff8f3;
   margin: 130px;
+}
+.about-info-container{
+   display: flex; 
+   justify-content: space-around;
+  
+.about-info{
+    text-align: center;
+}
+}
+.info-description{
+    /* font-size: 100px; */
 }
